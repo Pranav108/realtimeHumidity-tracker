@@ -1,0 +1,11 @@
+POST http://localhost:5555/addData
+content-type: application/json
+
+{
+    "name": "Pranav Singh",
+    "roll": "B19CS034",
+    "email":"nitm@gmail.com"
+}
+
+###
+GET http://localhost:5555/getAllData
